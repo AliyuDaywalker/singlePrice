@@ -1,0 +1,95 @@
+body{
+    background-color: whitesmoke;
+}
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+    font-family: 'karla';
+}
+.main-container{  
+    border-radius: 10px ;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.75);
+
+    
+}
+.top-container p {
+        margin-top: 1px;
+}
+.top-container h4{
+    margin-bottom: 15px;
+    color:hsl(71, 73%, 54%)
+}
+.top-container{
+    border: 1px ;
+    width: 100%;
+    height: 200px;
+    padding:30px;
+    background-color: white;
+    color: gray;
+}
+.left-bottom, .right-bottom{
+    border: 1px ;
+    width: 300px;
+    height: 200px;
+    background-color:hsl(179, 62%, 43%);
+    color:white;
+    padding: 2px;
+    
+
+
+}
+.left-bottom p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+.left-bottom h4, .right-bottom h3 {
+    margin-left: 30px;
+}
+
+.botttom, .dollar{
+    display: flex;
+}
+.dollar-sign{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 5px;
+    
+}
+
+.but{
+    width: 160px;
+    height: 30px;
+    display: block;
+    margin-left: 30px;
+    background-color:hsl(71, 73%, 54%);
+    color: white;
+    font: bold;
+    border: 1px;
+    border-radius: 2px;
+}
+#rb{
+    background-color:hsl(179, 70%, 52%);
+}h1{
+    color:hsl(179, 62%, 43%);  }
+    .sub{
+        margin-top: 7px;
+    }
+    ul{
+        list-style: none;
+         
+    }
+    .but:hover{
+        cursor: pointer;
+        background-color:green;
+    }
